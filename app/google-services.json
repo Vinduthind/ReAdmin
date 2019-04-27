@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "423119645253",
+    "firebase_url": "https://all-result-techxpose.firebaseio.com",
+    "project_id": "all-result-techxpose",
+    "storage_bucket": "all-result-techxpose.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423119645253:android:4d1ed0c92427a17d",
+        "android_client_info": {
+          "package_name": "techxpose.co.allresult"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423119645253-f9v4i1l9b9dua38rqf965gfssmq6gpq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABM4HSbDM0E23AFjLc98OOKN5enmQSAeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423119645253:android:906fc86e1b4931c5",
+        "android_client_info": {
+          "package_name": "techxpose.co.allresultadmin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423119645253-f9v4i1l9b9dua38rqf965gfssmq6gpq6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABM4HSbDM0E23AFjLc98OOKN5enmQSAeM"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

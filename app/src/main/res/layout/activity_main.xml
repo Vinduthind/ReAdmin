@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="techxpose.co.allresultadmin.MainActivity">
+    <EditText
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:inputType="textCapSentences"
+    android:hint="Course"
+    android:id="@+id/branch_name"/>
+
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:id="@+id/resultlink"
+        android:hint="Link"
+        android:layout_below="@+id/branch_name"
+        android:layout_height="wrap_content" />
+
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Examination (eg. May 2017)"
+        android:layout_below="@id/resultlink"
+        android:id="@+id/year"/>
+    <RadioGroup xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="fill_parent"
+        android:id="@+id/radiodecide"
+        android:gravity="center"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/year"
+        android:orientation="horizontal">
+        <RadioButton android:id="@+id/radio_pirates"
+            android:layout_width="wrap_content"
+            android:checked="true"
+
+
+            android:layout_marginRight="0dp"
+            android:layout_height="wrap_content"
+            android:text="Result"
+
+            />
+
+        <RadioButton android:id="@+id/radio_ninjas"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+
+            android:text="DateSheet" />
+    </RadioGroup>
+
+    <Spinner
+        android:id="@+id/dateSheetType"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:visibility="gone"
+
+        android:layout_gravity="center"
+        android:background="@drawable/spinner_border"
+        android:gravity="center"
+        android:layout_below="@id/radiodecide"
+        android:layout_marginLeft="5dp"
+        android:spinnerMode="dropdown" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/dateSheetType"
+        android:hint="Announced Date/Description in case datesheet"
+        android:id="@+id/dateformat"/>
+
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="submit"
+        android:layout_below="@+id/dateformat"
+        android:id="@+id/submit"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_below="@id/submit"
+        android:orientation="vertical"
+        android:layout_height="fill_parent">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:lines="4"
+            android:id="@+id/notification"
+            android:hint="Notification"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/submitnotification"
+            android:text="submit notification"/>
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_no_activity"
+            android:visible="false"
+            android:title="No activity is active for you!\n Please contact your Admin" />
+        <item
+            android:id="@+id/nav_result"
+            android:icon="@drawable/ic_menu_gallery"
+            android:title="Result" />
+        <item
+            android:id="@+id/nav_datesheet"
+            android:icon="@drawable/ic_menu_slideshow"
+            android:title="Date Sheet" />
+
+    </group>
+
+    <item android:title="Work Info.">
+        <menu>
+            <item
+                android:id="@+id/nav_status"
+
+                android:title="status" />
+            <item android:title="Role"
+                android:id="@+id/nav_role"
+                >
+
+            </item>
+        </menu>
+    </item>
+
+    <item android:title="Other">
+        <menu>
+            <item android:id="@+id/nav_profile"
+                android:icon="@drawable/ic_profile_foreground"
+                android:title="Profile" />
+            <item android:title="Setting"
+                android:icon="@drawable/ic_setting_foreground"
+                android:id="@+id/nav_settings"
+                />
+            <item android:title="LOG OUT"
+                android:icon="@drawable/ic_logout_foreground"
+                android:id="@+id/nav_logout"
+                />
+        </menu>
+    </item>
+
+</menu>
